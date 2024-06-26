@@ -33,14 +33,6 @@ const Earth = ({isRotating, setIsRotating, setCurrentStage, ...props}) => {
   })
   */
 
-  useEffect(() => {
-    if(isRotating){
-        actions['Take 001'].play();
-    }else{
-        actions['Take 001'].stop();
-    }
-}, [actions, isRotating])
-
   //x:-5.158
   //y:-9.552
   //z:2.365
