@@ -1,0 +1,82 @@
+{
+  "hash": "3f98f9af",
+  "configHash": "8895f42a",
+  "lockfileHash": "ecec6c04",
+  "browserHash": "ca0c0d43",
+  "optimized": {
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "e22a886c",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "989b308c",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "391440c4",
+      "needsInterop": true
+    },
+    "@emailjs/browser": {
+      "src": "../../node_modules/@emailjs/browser/es/index.js",
+      "file": "@emailjs_browser.js",
+      "fileHash": "cc44fcec",
+      "needsInterop": false
+    },
+    "@react-three/fiber": {
+      "src": "../../node_modules/@react-three/fiber/dist/react-three-fiber.esm.js",
+      "file": "@react-three_fiber.js",
+      "fileHash": "894162d2",
+      "needsInterop": false
+    },
+    "react-vertical-timeline-component": {
+      "src": "../../node_modules/react-vertical-timeline-component/dist-es6/index.js",
+      "file": "react-vertical-timeline-component.js",
+      "fileHash": "1a3f1848",
+      "needsInterop": true
+    },
+    "@react-three/drei": {
+      "src": "../../node_modules/@react-three/drei/index.js",
+      "file": "@react-three_drei.js",
+      "fileHash": "39bbb221",
+      "needsInterop": false
+    },
+    "@react-spring/three": {
+      "src": "../../node_modules/@react-spring/three/dist/react-spring_three.modern.mjs",
+      "file": "@react-spring_three.js",
+      "fileHash": "c011eb4f",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "hls-T6TIE334": {
+      "file": "hls-T6TIE334.js"
+    },
+    "vision_bundle-2ZNVQXUX": {
+      "file": "vision_bundle-2ZNVQXUX.js"
+    },
+    "chunk-U7YN2BZO": {
+      "file": "chunk-U7YN2BZO.js"
+    },
+    "chunk-WXSKVWTA": {
+      "file": "chunk-WXSKVWTA.js"
+    },
+    "chunk-LOKWUUCY": {
+      "file": "chunk-LOKWUUCY.js"
+    },
+    "chunk-DG3MR72B": {
+      "file": "chunk-DG3MR72B.js"
+    },
+    "chunk-4JI2AD7N": {
+      "file": "chunk-4JI2AD7N.js"
+    },
+    "chunk-CEQRFMJQ": {
+      "file": "chunk-CEQRFMJQ.js"
+    }
+  }
+}

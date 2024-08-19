@@ -51,7 +51,9 @@ body:has(.card[data-color="green"]:hover) {
   }
 
   .header {
-    @apply flex justify-between items-center sm:px-16 px-8 py-4 max-w-5xl mx-auto absolute top-0 bg-transparent z-10 right-0 left-0;
+    /*@apply flex justify-between items-center sm:px-16 px-8 py-4 max-w-5xl mx-auto absolute top-0 bg-transparent z-10 right-0 left-0;*/
+    @apply flex justify-between items-center px-12 py-4 w-full z-10 fixed top-3 left--4 right-4;
+
   }
 
   .footer {
@@ -180,4 +182,8 @@ body:has(.card[data-color="green"]:hover) {
   border: #fff;
   box-shadow: 0.6vmin 0.6vmin #fff, 1vmin 1vmin #d2e4ff, 1vmin 1vmin #d2e4ff,
     0.65vmin 1vmin #d2e4ff, 1vmin 0.65vmin #d2e4ff;
+}
+
+.white-background {
+  color: black;
 }

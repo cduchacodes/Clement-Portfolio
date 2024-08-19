@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, shopify, starbucks, tesla, acluster } from "../assets/images";
 import {
     car,
     contact,
@@ -22,30 +22,22 @@ import {
     snapgram,
     summiz,
     tailwindcss,
+    java,
     threads,
+    python,
     typescript
 } from "../assets/icons";
 
 export const skills = [
     {
-        imageUrl: css,
-        name: "CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: express,
-        name: "Express",
+        imageUrl: java,
+        name: "Java",
         type: "Backend",
     },
     {
-        imageUrl: git,
-        name: "Git",
-        type: "Version Control",
-    },
-    {
-        imageUrl: github,
-        name: "GitHub",
-        type: "Version Control",
+        imageUrl: css,
+        name: "CSS",
+        type: "Frontend",
     },
     {
         imageUrl: html,
@@ -56,6 +48,35 @@ export const skills = [
         imageUrl: javascript,
         name: "JavaScript",
         type: "Frontend",
+    },
+    {
+        imageUrl: react,
+        name: "React",
+        type: "Frontend",
+    },
+    {
+        imageUrl: tailwindcss,
+        name: "Tailwind CSS",
+        type: "Frontend",
+    },
+    {   imageUrl: python,
+        name: "Python",
+        type: "Both",
+    },
+    {
+        imageUrl: git,
+        name: "Git",
+        type: "Version Control",
+    },
+    {
+        imageUrl: github,
+        name: "GitHub",
+        type: "Version Control",
+    }/*,
+    {
+        imageUrl: express,
+        name: "Express",
+        type: "Backend",
     },
     {
         imageUrl: mongodb,
@@ -83,11 +104,6 @@ export const skills = [
         type: "Backend",
     },
     {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
-    },
-    {
         imageUrl: redux,
         name: "Redux",
         type: "State Management",
@@ -98,31 +114,30 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
-    },
-    {
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
-    }
+    }*/
 ];
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "UI/UX Intern",
+        company_name: "Acluster LLC",
+        icon: acluster,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "May 2024 - August 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Performed various tests on the website with UX in mind to find weak points in the website.",
+            "Generated multiple designs using Figma to foster a sleeker and more modern feel.",
+            "Designed a more efficient method of scheduling employees.",
+            "Worked with React, HTML, and CSS to create various features to improve the UI on the frontend.",
+            /*
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Participating in code reviews and providing constructive feedback to other developers.",*/
         ],
-    },
+    }
+    /*,
     {
         title: "React Native Developer",
         company_name: "Tesla",
@@ -161,7 +176,7 @@ export const experiences = [
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
-    },
+    },*/
 ];
 
 export const socialLinks = [
@@ -173,12 +188,12 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/cduchacodes',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/clement-ducharne/',
     }
 ];
 

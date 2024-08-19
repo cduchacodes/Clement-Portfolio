@@ -12,7 +12,7 @@ const About = () => {
         Hello, I'm <span className="blue-gradient_text font-semibold drop-shadow">Clement</span>
       </h1>
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
-        <p>Software Engineer in Maryland, specializizing in...</p>
+        <p>I'm a student at McGill University, studying Computer Science with a minor in Finance. I was born and raised in Maryland, but both of my parents are from France, so I am fluent in both English and French. I love travelling and am also interested in outer space, which explains the theme on the homepage :)</p>
       </div>
 
       <div className="py-10 flex flex-col">
@@ -37,7 +37,7 @@ const About = () => {
       <div className="py-16">
         <h3 className="subhead-text">Work Experience</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
-          <p>I've worked with all sorts of companies, leveling up my skills. Here's the rundown:</p>
+          <p>Here's who I've worked with so far:</p>
         </div>
 
         <div className="mt-12 flex">

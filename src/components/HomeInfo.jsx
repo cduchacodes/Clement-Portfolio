@@ -14,37 +14,36 @@ const InfoBox = ({ text, link, btnText }) => (
 
 const renderContent = {
     1: (
-        <h1 className="sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5">
-            Hi, I am <span className="font-semibold">Clement</span><br/>a software engineer from Maryland.
-        </h1>
+        <InfoBox 
+            text="Hi I'm Clement, a software engineer from Maryland"
+            link="/about"
+            btnText="More about me"
+        />
     ),
     2: (
         <InfoBox 
-            text="Worked with many companies and picked up many skills along the way"
-            link="/about"
-            btnText="Learn more"
-        />
-    ),
-    3: (
-        <InfoBox 
-            text="Led multiple projects to success. Curious about the impact?"
+            text="Want to know what I've worked on so far?"
             link="/projects"
             btnText="Visit my portfolio"
         />
     ),
-    4: (
+    3: (
         <InfoBox 
             text="Need a project done or looking for a dev?"
             link="/contact"
             btnText="Let's talk"
         />
     ),
+    4: (
+        <h1></h1>
+    ),
+    
 }
 
 
 
 const HomeInfo = ({ currentStage }) => {
-  return renderContent[ currentStage] || null;
+  return renderContent[ currentStage];
 }
 
 export default HomeInfo
