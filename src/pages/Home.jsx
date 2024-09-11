@@ -13,6 +13,7 @@ import Plane from '../models/Plane';
 import Stars from '../models/Stars';
 import Flag from "../models/Flag";
 
+//const [showPopup, setShowPopup] = useState(false);
 
 const Home = () => {
   const [deltaX, setDeltaX] = useState(0);
@@ -27,6 +28,13 @@ const Home = () => {
   const [isPlayingMusic, setIsPlayingMusic] = useState(false);
 
   useEffect(() => {
+    //mobile device popup
+    if(window.innerWidth <= 768){
+      setShowPopup(true);
+    }
+
+
+    //music
     if (isPlayingMusic) {
       audioRef.current.play();
     }
@@ -35,6 +43,10 @@ const Home = () => {
       audioRef.current.pause();
     };
   }, [isPlayingMusic]);
+
+  const handleClosePopup = () => {
+    setShowPopup(false);
+  };
 
   //scale =4,4,4
   //pos = [0, -4.7, 1]

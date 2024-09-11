@@ -25,7 +25,8 @@ import {
     java,
     threads,
     python,
-    typescript
+    typescript, 
+    duck
 } from "../assets/icons";
 
 export const skills = [
@@ -200,6 +201,22 @@ export const socialLinks = [
 export const projects = [
     {
         iconUrl: pricewise,
+        theme: 'btn-back-green',
+        name: 'In Progress: Trading Bot',/*
+        description: 'Trading bot',
+        link: 'https://github.com/cduchacodes/Duck-Jeopardy',*/
+    },
+    {
+        iconUrl: duck,
+        theme: 'btn-back-yellow',
+        name: 'Duck Jeopardy',
+        description: 'Developed a web application that allows the user to play a duck themed jeopardy game.',
+        link: 'https://github.com/cduchacodes/Duck-Jeopardy',
+    },
+    
+    /*
+    {
+        iconUrl: pricewise,
         theme: 'btn-back-red',
         name: 'Amazon Price Tracker',
         description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
@@ -239,5 +256,5 @@ export const projects = [
         name: 'AI Summarizer Application',
         description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
         link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
+    }*/
 ];

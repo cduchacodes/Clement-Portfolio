@@ -28,6 +28,7 @@ import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import python from './python.png'
+import duck from './duck.png'
 
 export {
     css,
@@ -59,5 +60,6 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    duck
 }

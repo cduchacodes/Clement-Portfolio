@@ -12,7 +12,7 @@ const Projects = () => {
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>In my free time, I've worked on some projects:</p>
       </div>
-{/*
+
       <div className="flex flex-wrap my-20 gap-16">
         {projects.map((project) => (
           <div className="lg:w-[400px] w-full" key={project.name}>
@@ -55,7 +55,7 @@ const Projects = () => {
         ))}
       </div>
       <hr className="border-slate-200" />
-        */}
+        
       <CTA />
     </section>
   )
