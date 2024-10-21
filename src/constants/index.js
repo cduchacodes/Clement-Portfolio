@@ -202,8 +202,8 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-green',
-        name: 'In Progress: Trading Bot',/*
-        description: 'Trading bot',
+        name: 'In Progress: Market Sentiment Analyzer',/*
+        description: 'Market Sentiment Analyzer',
         link: 'https://github.com/cduchacodes/Duck-Jeopardy',*/
     },
     {
