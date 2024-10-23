@@ -29,6 +29,7 @@ import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import python from './python.png'
 import duck from './duck.png'
+import c from './c-programming.png'
 
 export {
     css,
@@ -61,5 +62,6 @@ export {
     contact,
     soundon,
     soundoff,
-    duck
+    duck,
+    c
 }

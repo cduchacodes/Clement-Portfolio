@@ -26,7 +26,8 @@ import {
     threads,
     python,
     typescript, 
-    duck
+    duck,
+    c
 } from "../assets/icons";
 
 export const skills = [
@@ -63,6 +64,11 @@ export const skills = [
     {   imageUrl: python,
         name: "Python",
         type: "Both",
+    },
+    {
+        imageUrl: c,
+        name: "C",
+        type: "Backend"
     },
     {
         imageUrl: git,
