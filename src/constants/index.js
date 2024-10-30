@@ -208,9 +208,9 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-green',
-        name: 'In Progress: Market Sentiment Analyzer',/*
-        description: 'Market Sentiment Analyzer',
-        link: 'https://github.com/cduchacodes/Duck-Jeopardy',*/
+        name: 'In Progress: Market Sentiment Analyzer',
+        description: 'Scrapes article titles about certain stock tickers on the internet and runs a sentiment analysis on the titles of the articles.',
+        link: 'https://github.com/cduchacodes/Market-Sentiment-Analyzer/tree/main',
     },
     {
         iconUrl: duck,
